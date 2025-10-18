@@ -103,6 +103,11 @@ UICorner_5.Parent = cheat
 UITextSizeConstraint_3.Parent = cheat
 UITextSizeConstraint_3.MaxTextSize = 47
 
+cheat.MouseButton1Down:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
+cheat:Destroy()
+end)
+
 -- Scripts:
 
 local function NWPVRUG_fake_script() -- onoff.LocalScript 
