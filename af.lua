@@ -104,8 +104,8 @@ UITextSizeConstraint_3.Parent = cheat
 UITextSizeConstraint_3.MaxTextSize = 47
 
 cheat.MouseButton1Down:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
 cheat:Destroy()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/nightsintheforest.lua", true))()
 end)
 
 -- Scripts:
